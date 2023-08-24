@@ -1,0 +1,36 @@
+#project-skills {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+#project-skills li {
+	display: inline-block;
+    margin: 2px;
+    padding: 5px 5px;
+    border-radius: 8px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1em;
+}
+
+#project-skills li:hover {
+    background-color: #C3BFE9;
+    color: white;
+}
+
+#skills li:hover {
+    box-shadow: inset 0 0 0 5px #53a7ea;
+    color: white;
+    background-color: dimgray;
+}
+
+#profile-pic {
+    width:200px;
+    border-radius:50%;
+    border: 5px solid #fdf8f8;
+    margin-bottom: 10px;
+}
